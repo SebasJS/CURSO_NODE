@@ -1,0 +1,50 @@
+npm puede ser dos cosas
+  El registro donde estan todos lo modulos de node
+  o el comando en la terminal para manejar nuestros paquetes, puede usarse yarn o pnpm
+
+__________
+comando para inicializar el proyecto
+
+npm init
+
+Si queremos que venga con lo valor por defecto ponemos -y ó --yes
+
+__________
+
+Dependencia de picocolors: Se utiliza para darle vida a la terminal
+
+npm i picocolors  
+__________
+
+npm i o npm install se utiliza para instalar dependencias
+
+__________
+
+En ocasiones las dependencias vienen predeterminadamente con el simbolo ^ cuando se instala y aparece
+en el documento package.json por ejemplo: picocolors: "^1.0.0" lo que hace es que nos mantendra actualizado
+el paquete en su ultima version. Es recomendable quitarla
+
+__________
+
+El instalar un paquete puede hacer que este a su vez traiga otros modulos que el necesita para funcionar
+
+__________
+
+si necesitamos desinstalar un paquete podemos usars
+
+npm uninstall paqueteX
+
+__________
+
+CONFIGURACIÓN DEL LINTER
+
+Se puede utilizar standard para lintar el codigo, esto ayuda a que el codigo se vea mas limpio
+
+-D ó --development quiere decir que la dependencia es solo de desarrollo
+
+  1.  Se debe tener configurado ESlint como extension en VSC
+ 
+  2.  primero instalar standard 
+      npm i standard -d
+
+
